@@ -1,0 +1,101 @@
+!! 1977 - A minimalist theme set for Openbox
+!! Author:  Thayer Williams (thayerw@gmail.com)
+!! Website: http://cinderwick.ca
+
+
+!! menus
+menu.title.bg: flat
+menu.title.bg.color: #eff1f5
+menu.title.text.color: #4c4f69
+menu.title.text.justify: right
+
+menu.items.bg: flat solid
+menu.items.bg.color: #eff1f5
+menu.items.bg.border.color: #9ca0b0
+menu.items.text.color: #4c4f69
+menu.items.justify: left
+
+menu.items.disabled.text.color: #9ca0b0
+menu.bullet.image.color: #4c4f69
+menu.bullet.selected.image.color: #eff1f5
+
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #9ca0b0
+menu.items.active.bg.border.color: #9ca0b0
+menu.items.active.text.color: #eff1f5
+menu.items.active.disabled.text.color: #4c4f69
+
+!! fonts
+window.active.label.text.font:shadow=y
+window.inactive.label.text.font:shadow=n
+menu.title.text.font:shadow=n
+
+!! windows
+borderWidth: 1
+padding.width: 2
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: center
+
+!! window active
+window.active.title.bg: flat
+window.active.title.bg.color: #737f93
+window.active.title.text.color: #eff1f5
+window.active.title.bg.border.color: #ffffff
+window.active.border.color: #4c4f69
+
+window.active.label.bg: flat
+window.active.label.bg: parentrelative
+window.active.label.text.color: #eff1f5
+window.active.label.bg.border.color: #ffffff
+window.inactive.border.color: #bcc0cc
+
+!! window inactive
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #dce0e8
+window.inactive.title.text.color: #737f93
+
+window.inactive.label.bg: flat4c
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #737f93
+
+!! window active buttons
+window.active.button.pressed.bg:                flat
+window.active.button.pressed.bg.color:          #dce0e8
+window.active.button.pressed.image.color:       #dce0e8
+
+window.active.button.unpressed.bg:              flat
+window.active.button.unpressed.bg.color:        #dce0e8
+window.active.button.unpressed.image.color:     #4c4f69
+
+window.active.button.disabled.bg:               parentrelative
+window.active.button.toggled.image.color:       #4c4f69
+
+window.active.button.hover.bg:                  parentrelative
+window.active.button.toggled.hover.bg:          parentrelative
+window.active.button.hover.image.color:         #eff1f5
+window.active.button.toggled.hover.image.color: #eff1f5
+
+!! window inactive buttons
+window.inactive.button.pressed.bg:                flat
+window.inactive.button.pressed.bg.color:          #dce0e8
+window.inactive.button.pressed.image.color:       #dce0e8
+
+window.inactive.button.unpressed.bg:              flat
+window.inactive.button.unpressed.bg.color:        #dce0e8
+window.inactive.button.unpressed.image.color:     #737f93
+
+window.inactive.button.disabled.bg:               parentrelative
+window.inactive.button.toggled.image.color:       #737f93
+
+window.inactive.button.hover.bg.color:            #737f93
+window.inactive.button.toggled.hover.bg.color:    #737f93
+window.inactive.button.hover.image.color:         #4c4f69
+window.inactive.button.toggled.hover.image.color: #4c4f69
+
+!! osd
+osd.bg.color: #e1dedb
+osd.border.color: #4c4f69
+osd.border.width: 0
+osd.label.text.color: #fff
+osd.label.bg.color: #e1dedb

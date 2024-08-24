@@ -1,0 +1,74 @@
+!# AdwaitaBox Openbox theme
+!# Licensing: LGPL (GNU Lesser General Public License)
+
+!# General stuff
+!# --------------------------------------
+border.width: 1
+padding.width: 4
+padding.height: 4
+window.handle.width: 2
+window.client.padding.width: 0
+*.justify: center
+
+!# Menu settings
+!# --------------------------------------
+
+menu.overlap: 1
+menu.border.color: #aaaaaa
+menu.border.width: 1
+menu.title.bg: solid flat
+menu.title.bg.color: #e6e7e6
+menu.title.text.color: #4d4d4d
+menu.items.bg: Flat Solid
+menu.items.bg.color: #ffffff
+menu.items.text.color: #111111
+menu.items.disabled.text.color: #aaaaaa
+menu.items.active.bg: Flat Gradient splitvertical border
+menu.items.active.bg.color: #97b8e2
+menu.items.active.bg.color.splitTo: #a8c5e9
+menu.items.active.bg.colorTo: #91b3de
+menu.items.active.bg.colorTo.splitTo: #80a7d6
+menu.items.active.bg.border.color: #4b6e99
+menu.items.active.text.color: #ffffff
+menu.separator.width: 1
+menu.separator.padding.width: 0
+menu.separator.padding.height: 3 
+menu.separator.color: #aaaaaa
+
+!# Border
+!# --------------------------------------
+window.*.handle.bg: Flat Solid
+window.*.handle.bg.color: #e5e5e5
+window.*.grip.bg: Flat Solid
+window.*.grip.bg.color: #e5e5e5
+
+!# Active window
+!# --------------------------------------
+window.active.title.separator.color: #ececec
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #4d4d4d
+window.active.title.bg: Flat Solid
+window.active.title.bg.color: #ececec
+window.active.button.*.bg: Flat Solid
+window.active.button.*.image.color: #70747d
+window.active.button.*.bg.color: #ececec
+window.active.button.*.hover.bg: Flat Solid border
+window.active.button.*.hover.bg.color: #bbcce2
+window.active.button.*.hover.bg.border.color: #859fbe
+window.active.button.*.pressed.bg: Flat Solid border
+window.active.button.*.pressed.bg.color: #bbcce2
+window.active.button.*.pressed.bg.border.color: #859fbe
+window.active.border.color: #828282
+
+!# Inactive window
+!# --------------------------------------
+window.inactive.title.separator.color: #ececec
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #aaaaaa
+window.inactive.title.bg: Flat Solid
+window.inactive.title.bg.color: #ececec
+window.inactive.button.*.image.color: #aaaaaa
+window.inactive.button.*.bg: Flat Solid
+window.inactive.button.*.bg.color: #ececec
+window.inactive.border.color: #beb6b6
+
